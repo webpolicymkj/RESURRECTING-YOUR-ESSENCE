@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Carrie Bhakta" className="logo-img" />
-                <span className="studio-name">Carrie Bhakta</span>
+                <img src={logoImg} alt="Muhammad Daniyal" className="logo-img" />
+                <span className="studio-name">Muhammad Daniyal</span>
               </div>
             </div>
 
@@ -52,8 +52,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Carrie Bhakta – Welcome Aboard</h2>
-            <p className="about-text">Carrie Bhakta is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
+            <h2 className="highlight-title">Muhammad Daniyal – Welcome Aboard</h2>
+            <p className="about-text">Muhammad Daniyal is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
             </p>
           </div>
           <div className="about-img-container">
@@ -87,12 +87,12 @@ function HomePage() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, request support, please contact us at:<br />
-            <a href="mailto: carriebhakta1954@gmail.com"> carriebhakta1954@gmail.com</a><br />
+            <a href="mailto: mysomuchw1@gmail.com"> mysomuchw1@gmail.com</a><br />
             <span style={{ display: 'inline-block', marginTop: '10px' }}>
-              🏠 Carrie Bhakta
-                9/1 Đường 16, Hiệp Bình Chánh
-                Tp Thủ Đức - 700000
-                Vietnam (VN)
+              🏠 Muhammad Daniyal
+                Post Office Khas, Noorpur Shahan, Tehsil and District Islamabad
+                Islamabad - 45300
+                Pakistan (PK)
             </span>
           </p>
         </div>
@@ -112,7 +112,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Carrie Bhakta. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Muhammad Daniyal. All rights reserved.</p>
           </div>
         </footer>
       </div>
