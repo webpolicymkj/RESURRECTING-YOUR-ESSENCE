@@ -1,8 +1,20 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('react-router-dom', () => {
+  const React = require('react');
+
+  return {
+    BrowserRouter: ({ children }) => React.createElement(React.Fragment, null, children),
+    Routes: ({ children }) => React.createElement(React.Fragment, null, children),
+    Route: ({ element }) => element,
+    Link: ({ children, to, ...props }) => React.createElement('a', { href: to, ...props }, children),
+    useLocation: () => ({ pathname: '/' }),
+  };
+}, { virtual: true });
+
+test('renders Studio Wesley heading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const heading = screen.getByRole('heading', { name: /studio wesley – welcome aboard/i });
+  expect(heading).toBeInTheDocument();
 });
