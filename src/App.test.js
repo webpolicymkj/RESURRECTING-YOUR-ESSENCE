@@ -13,8 +13,8 @@ jest.mock('react-router-dom', () => {
   };
 }, { virtual: true });
 
-test('renders Chesterton Academy heading', () => {
+test('renders Resurrecting Your Essence heading', () => {
   render(<App />);
-  const heading = screen.getByRole('heading', { name: /chesterton academy – welcome aboard/i });
+  const heading = screen.getByRole('heading', { name: /resurrecting your essence – welcome aboard/i });
   expect(heading).toBeInTheDocument();
 });

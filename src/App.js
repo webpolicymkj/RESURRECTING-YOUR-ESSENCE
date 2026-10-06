@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Chesterton Academy" className="logo-img" />
-                <span className="studio-name">CHESTERTON ACADEMY</span>
+                <img src={logoImg} alt="Resurrecting Your Essence" className="logo-img" />
+                <span className="studio-name">RESURRECTING YOUR ESSENCE</span>
               </div>
             </div>
 
@@ -52,12 +52,12 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">CHESTERTON ACADEMY – Welcome Aboard</h2>
-            <p className="about-text">CHESTERTON ACADEMY is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
+            <h2 className="highlight-title">RESURRECTING YOUR ESSENCE – Welcome Aboard</h2>
+            <p className="about-text">RESURRECTING YOUR ESSENCE is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
             </p>
           </div>
           <div className="about-img-container">
-            <img src={imgMkj} alt="About Chesterton Academy" className="about-img" />
+            <img src={imgMkj} alt="About Resurrecting Your Essence" className="about-img" />
           </div>
         </div>
       </section>
@@ -87,11 +87,11 @@ function HomePage() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, request support, please contact us at:<br />
-            <a href="mailto:takilla92@gmail.com">takilla92@gmail.com</a><br />
+            <a href="mailto:melodyflores1994@gmail.com">melodyflores1994@gmail.com</a><br />
             <span style={{ display: 'inline-block', marginTop: '10px' }}>
-              🏠 CHESTERTON ACADEMY OF JACKSONVILLE INC<br />
-              7787 Blackstone River Dr E<br />
-              Jacksonville - 32256-2991<br />
+              🏠 RESURRECTING YOUR ESSENCE FOUNDATION, INC.<br />
+              11701 Palm Lake Dr APT 908<br />
+              Jacksonville - 32218-0912<br />
               United States (US)
             </span>
           </p>
@@ -112,7 +112,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} CHESTERTON ACADEMY OF JACKSONVILLE INC. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} RESURRECTING YOUR ESSENCE FOUNDATION, INC. All rights reserved.</p>
           </div>
         </footer>
       </div>
